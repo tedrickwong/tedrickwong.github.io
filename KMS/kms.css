@@ -1,0 +1,249 @@
+@font-face{
+    font-family: "Moon";
+    src: url(MoonFont/MoonLight.otf);
+}
+
+.fixed-nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    background-color: #740000;
+    /*#ADD8E6*/
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+nav ul li a{
+    padding: 14px 20px 12px;
+    color: white;
+    font-size: 20px;
+    font-family: "Moon";
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active){
+    background-color: #5F0101;
+}
+
+#title-header{
+    font-size: 108px;
+    vertical-align: middle;
+    line-height: 450%;
+    text-shadow: -2px 0 #740000, 0 2px #740000, 2px 0 #740000, 0 -2px #740000;
+    color: white;
+    font-family: "Moon";
+    text-align: center;
+    font-weight: normal;
+}
+
+#boosted-pic{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.footer-links{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #740000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-links img{
+    height: 30px;
+    width: 30px;
+}
+
+/*
+Founder Page
+*/
+#founder-header{
+    font-weight: normal;
+    font-size: 72px;
+    font-family: "Moon";
+    text-align: center;
+}
+
+#founders-table{
+    width: 100%;
+}
+
+#founders-table tbody{
+    text-align: center;
+}
+
+#founders-table td{
+    display: inline-block;
+    padding: 55px;
+    text-align: center;
+    font-family: "Moon";
+    font-size: 18px;
+}
+
+#founders-table td i{
+    font-size: 13px;
+}
+
+.rounded-corners-img{
+    border-radius: 50%;
+}
+
+/*
+Merchandise Page
+*/
+#merchandise-header{
+    font-weight: normal;
+    font-size: 72px;
+    font-family: "Moon";
+    text-align: center;
+}
+
+h3{
+    font-family: "Moon";
+    text-align: center;
+}
+
+#jacket-table{
+    width: 100%;
+}
+
+#jacket-table tbody{
+    text-align: center;
+}
+
+#jacket-table td{
+    display: inline-block;
+    padding: 55px;
+    /*text-align: center;
+    font-family: "Moon";
+    font-size: 18px;*/
+}
+
+#shirt-table{
+    width: 100%;
+}
+
+#shirt-table tbody{
+    text-align: center;
+}
+
+#shirt-table td{
+    display: inline-block;
+    padding: 55px;
+}
+
+#bottle-table{
+    width: 100%;
+}
+
+#bottle-table tbody{
+    text-align: center;
+}
+
+#bottle-table td{
+    display: inline-block;
+    padding: 55px;
+}
+
+.merch-img{
+    height: 300px;
+    width: 300px;
+}
+
+
+/*
+Apply Page
+*/
+#apply-header{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: normal;
+    font-family: "Moon";
+}
+
+#apply-form{
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border-radius: 5px;
+    border: 2px lightblue solid;
+}
+
+input[type=submit]{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px black solid;
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/*
+About Page
+*/
+#about-header{
+    font-weight: normal;
+    font-size: 72px;
+    text-align: center;
+    font-family: "Moon";
+}
+
+#about-description{
+    text-align: center;
+    font-family: "Moon";
+}
+
+#contact-header{
+    font-weight: normal;
+    font-size: 72px;
+    text-align: center;
+    font-family: "Moon";
+}
+
+.contact p{
+    font-family: "Moon";
+    text-align: center;
+}
+
