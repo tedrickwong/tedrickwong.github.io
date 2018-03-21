@@ -1,11 +1,13 @@
 @font-face{
     font-family: "Moon";
-    src: url(MoonFont/MoonLight.otf);
+    src: url("MoonFont/Moon Bold.otf");
 }
 
 body{
     font-family: "Moon";
     font-size: 18px;
+    background: #E9FFFF;
+    padding-bottom: 150px;
 }
 
 #home-pic{
