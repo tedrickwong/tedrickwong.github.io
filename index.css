@@ -1,15 +1,27 @@
 @font-face{
     font-family: "Moon";
-    src: url("MoonFont/Moon Bold.otf");
+    src: url("MoonFont/MoonLight.otf");
+}
+
+@font-face{
+	font-family: "Moon Bold";
+	src: url("MoonFont/Moon Bold.otf");
 }
 
 body{
     font-family: "Moon";
     font-size: 18px;
-    background: #E9FFFF;
+    /*background: #E9FFFF;*/
+	color: #E9FFFF;
+	background: #000000;
     padding-bottom: 150px;
+	overflow-y: overlay;
 }
 
 #home-pic{
     border-radius: 150px;
+}
+
+.jumbotron{
+	background: none;
 }
