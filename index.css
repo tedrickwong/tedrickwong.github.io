@@ -25,3 +25,12 @@ body{
 .jumbotron{
 	background: none;
 }
+
+.exp{
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:15px;
+	border:1px solid #E9FFFF;
+	border-radius:10px;
+	padding-bottom: 5px;
+}
