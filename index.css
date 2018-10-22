@@ -34,3 +34,8 @@ body{
 	border-radius:10px;
 	padding-bottom: 5px;
 }
+
+.exp-title{
+	font-weight: bold;
+	margin-bottom:0;
+}
