@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="../img/favicon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel = "stylesheet" href = "../index.css">        
+		<link rel = "stylesheet" href = "../index.css">   
+		    
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>        
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="../index.js"></script>         
     </head>
     <body>
         <div class="jumbotron text-center" style="margin:0;width:100%;">
@@ -37,42 +39,56 @@
         <div class = "container">
 			<!-- START: LADWP -->
 			<div class="row exp">
-				<div class="col-md-10">
+				<div class="col-md-10 lCol">
 					<h3 class="exp-title">Student Professional Worker</h3>
-					<span style="font-size:14px;">Los Angeles Department of Water and Power</span>
+					<span style="font-size:14px;">Los Angeles Department of Water and Power - ITS Deployment Division</span><br>
 					<ul>
 						<li>Deployment of upgraded systems to users</li>
-						<li>Network deployment using MDT</li>
+						<li>Network imaging using MDT (Microsoft Deployment Toolkit)</li>
 						<li>Cloning disk images for deployment using Clonezilla</li>
-						<li>Manage and inventory all technological devices in the department</li>
+						<li>Manage and inventory all technological devices in the department using AMS (Asset Management System), an application built off Oracle APEX</li>
+						<li>Complete various tickets, IT Service Requests, ranging from basic troubleshooting to hardware refreshes</li>
+						<li>Utilization of Microsoft SharePoint to track and store files related to team projects</li>
 					</ul>
 				</div>
-				<div class="col-md-2 text-center">
-					<img style="padding-top:50px;padding-bottom:25px;" src="../img/ladwp.png" height=100% width=100% />
+				<div class="col-md-2 text-center rCol">
+					<table style="height:100%">
+						<tr>
+							<td style="vertical-align:middle;">
+									<img style="display:block;width:100%;height:auto;" src="../img/ladwp.png"/>
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 			<!-- END: LADWP -->
 		
 			<!-- START: OIT -->
 			<div class="row exp">
-				<div class="col-md-10">
+				<div class="col-md-10 lCol">
 					<h3 class="exp-title">IT Student Web Devloper</h3>
-					<span style="font-size:14px;">UCI Student Life &amp Leadership</span>
+					<span style="font-size:14px;">Office of Information Technology - UCI Student Life &amp Leadership</span>
 					<ul>
 						<li>Devlopment of PHP and MySQL form-based web applications</li>
 						<li>Developed course registration form for instructors and admin tools for coordinators</li>
 						<li>Created and updated databases and tables in phpMyAdmin</li>
 					</ul>
 				</div>
-				<div class="col-md-2 text-center">
-					<img style="padding-top:50px;padding-bottom:25px;" src="../img/sll.png" height=100% width=100% />
+				<div class="col-md-2 text-center rCol">
+					<table style="height:100%">
+						<tr>
+							<td style="vertical-align:middle;">
+								<img style="display:block;width:100%;height:auto;" src="../img/sll.png"/>
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 			<!-- END: OIT -->
 
 			<!-- START: BSS -->
 			<div class="row exp">
-				<div class="col-md-10">
+				<div class="col-md-10 lCol">
 					<h3 class="exp-title">Engineering Intern</h3>
 					<span style="font-size:14px;">City of Los Angeles Department of Public Works, Bureau of Street Services</span>
 					<ul>
@@ -81,15 +97,21 @@
 						<li>Worked with the Pavement Management database in MS Access running queries on work orders</li>
 					</ul>
 				</div>
-				<div class="col-md-2 text-center">
-					<img style="padding-top:25px;padding-bottom:25px;" src="../img/cityla.png" height=50% width=50% />
+				<div class="col-md-2 text-center rCol" style="overflow:auto;">
+					<table style="height:100%">
+						<tr>
+							<td style="vertical-align:middle;">
+								<img style="display:block;width:100%;height:auto" src="../img/cityla.png"/>
+							</td>
+						</tr>
+					</table>
 				</div>				
 			</div>
 			<!-- END:BSS -->
 
 			<!-- START: BIS -->
 			<div class="row exp">
-				<div class="col-md-10">
+				<div class="col-md-10 lCol">
 					<h3 class="exp-title">Volunteer</h3>
 					<span style="font-size:14px;">City of Los Angeles Department of Transportation, Bureau of Information Services</span>
 					<ul>
@@ -98,15 +120,21 @@
 						<li>Provided various technical support for systems in the department</li>
 					</ul>
 				</div>
-				<div class="col-md-2 text-center">
-					<img style="padding-top:50px;padding-bottom:25px;" src="../img/ladot.png" height=50% width=50% />
+				<div class="col-md-2 text-center rCol">
+					<table style="height:100%">
+						<tr>
+							<td>
+								<img style="display:block;width:100%;height:auto;" src="../img/ladot.png"/>
+							</td>
+						</tr>						
+					</table>					
 				</div>
 			</div>
 			<!-- END: BIS -->
 					
 			<!-- START: ATSAR-->
 			<div class="row exp">
-				<div class="col-md-10">
+				<div class="col-md-10 lCol">
 					<h3 class="exp-title">Volunteer</h3>
 					<span style="font-size:14px;">City of Los Angeles Department of Transportation, Automated Traffic Systems and Research</span>
 					<ul>
@@ -114,8 +142,14 @@
 						<li>Setup file storage servers</li>
 					</ul>
 				</div>
-				<div class="col-md-2 text-center">
-					<img style="padding-top:50px;padding-bottom:25px;" src="../img/ladot.png" height=50% width=50% />
+				<div class="col-md-2 text-center rCol">
+						<table style="height:100%">
+							<tr>
+								<td>
+									<img style="display:block;width:100%;height:auto;" src="../img/ladot.png"/>
+								</td>
+							</tr>						
+						</table>
 				</div>				
 			</div>
 			<!-- END: ATSAR -->

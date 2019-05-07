@@ -39,3 +39,8 @@ body{
 	font-weight: bold;
 	margin-bottom:0;
 }
+
+.column{
+	padding-bottom: 100%;
+    margin-bottom: -100%;
+}
