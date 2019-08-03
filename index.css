@@ -44,3 +44,8 @@ body{
 	padding-bottom: 100%;
     margin-bottom: -100%;
 }
+
+.lCol{
+	padding-top:1.5%;
+	padding-bottom:1.5%;
+}
