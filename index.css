@@ -49,3 +49,21 @@ body{
 	padding-top:1.5%;
 	padding-bottom:1.5%;
 }
+
+.expo-topic{
+	
+}
+
+.expo-link{
+	text-decoration: none;
+	color: inherit;
+}
+
+.expo-link:hover{
+	color: inherit;
+	opacity: 0.75;
+}
+
+
+
+
