@@ -9,7 +9,8 @@
         <link rel = "stylesheet" href = "../index.css">        
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
+		<script src="../index.js"></script> 
     
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
@@ -21,13 +22,35 @@
             <p>UCI 2020 - Computer Science</p>
         </div>
 
-		<div class = "container">
-			<ul class="nav nav-pills nav-justified" role="tablist">
-				<li><a href="../">Home</a></li>
-				<li><a href="../experience">Experience</a></li>
-				<li><a href="../projects">Projects</a></li>
-				<li class="active"><a href="">Contact Me</a></li>        
-			</ul>
+		<div id="navigation" class="container">
+			<!-- <ul class="nav nav-pills nav-justified" role="tablist">
+				<li class="active"><a href="">Home</a></li>
+				<li><a href="experience">Experience</a></li>
+				<li><a href="projects">Projects</a></li>
+				<li><a href="contact">Contact Me</a></li>        
+			</ul> -->
+			<div class="col-md-2"></div>
+			<a href="../index.html" style="text-decoration:none;color:inherit;">
+				<div id="home" class="col-md-2 text-center nav-btn">
+					<strong>Home</strong>
+				</div>
+			</a>
+			<a href="../experience" style="text-decoration:none;color:inherit;">
+				<div id="" class="col-md-2 text-center nav-btn">
+					<strong>Experience</strong>
+				</div>
+			</a>
+			<a href="../projects" style="text-decoration:none;color:inherit;">
+				<div id="projects" class="col-md-2 text-center nav-btn">
+					<strong>Projects</strong>
+				</div>
+			</a>
+			<a href="" style="text-decoration:none;color:inherit;">
+				<div id="contact me" class="col-md-2 text-center nav-btn">
+					<strong>Contact Me</strong>
+				</div>
+			</a>
+			<div class="col-md-2"></div>
         </div>
 
         <div class='container hidden-xs' style='padding-top:100px;'></div>
