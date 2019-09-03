@@ -32,3 +32,23 @@ $( document ).ready(function()
 
 
 });
+
+function openPage(pagename){
+	switch(pagename)
+	{
+		case "home":
+			location.href="index.html";
+			break;
+		case "experience":
+			location.href="experience";
+			break;
+		case "projects":
+			location.href="projects";
+			break;
+		case "contact me":
+			location.href="contact";
+			break;
+	}
+	document.getElementById(pagename).style.color = "black";
+	document.getElementById(pagename).style.backgroundColor = "white";
+}
