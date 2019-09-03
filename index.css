@@ -74,7 +74,10 @@ body{
 .nav-btn {
 	border:3px solid white;
 	padding:10px;
-	margin:3px;
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .nav-btn:hover {

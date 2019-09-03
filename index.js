@@ -13,17 +13,15 @@ $( document ).ready(function()
 	for( i=0; i< pages.length; i++ )
 	{
 		var page = pages[i];
-		var found = false;
 		
 		if (location.href.includes(page.innerText.toLowerCase().split(" ")[0]))
 		{
 			page.firstElementChild.style.color = "black";
 			page.firstElementChild.style.backgroundColor = "white";	
-			found = true;
 			break;
 		}
 		
-		if (found == false && i == pages.length - 1)
+		if (i == pages.length - 1)
 		{
 			document.getElementById("home").style.color = "black";
 			document.getElementById("home").style.backgroundColor = "white";	
@@ -33,7 +31,7 @@ $( document ).ready(function()
 
 });
 
-function openPage(pagename){
+/* function openPage(pagename){
 	switch(pagename)
 	{
 		case "home":
@@ -51,4 +49,4 @@ function openPage(pagename){
 	}
 	document.getElementById(pagename).style.color = "black";
 	document.getElementById(pagename).style.backgroundColor = "white";
-}
+} */
