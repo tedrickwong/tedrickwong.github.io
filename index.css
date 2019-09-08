@@ -85,4 +85,9 @@ body{
 	color: black;
 }
 
+.nav-active {
+	color : black;
+	background-color : white;
+}
+
 

@@ -8,7 +8,7 @@ $( document ).ready(function()
         images[i].style.height = rows[i].clientHeight+"px";
     }*/
 	
-	var pages = document.getElementById('navigation').getElementsByTagName('a');
+	/* var pages = document.getElementById('navigation').getElementsByTagName('a');
 
 	for( i=0; i< pages.length; i++ )
 	{
@@ -26,7 +26,7 @@ $( document ).ready(function()
 			document.getElementById("home").style.color = "black";
 			document.getElementById("home").style.backgroundColor = "white";	
 		}
-	}
+	} */
 
 
 });
