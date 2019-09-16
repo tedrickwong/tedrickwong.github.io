@@ -9,12 +9,12 @@
 }
 
 body{
-    font-family: "Raleway";
+    font-family: "Montserrat";
     font-size: 16px;
     /*background: #E9FFFF;*/
 	/* color: #E9FFFF; */
 	color: #FFFFFF;
-	background: #000000;
+	background: #22313f;
     padding-bottom: 150px;
 	overflow-y: overlay;
 }
@@ -34,11 +34,14 @@ body{
 	border:1px solid #E9FFFF;
 	border-radius:10px;
 	padding-bottom: 5px;
+	background-color: #DDDDDD;
+	color: #000000;
 }
 
 .exp-title{
 	font-weight: bold;
 	margin-bottom:0;
+	text-align: center;
 }
 
 .column{
@@ -49,6 +52,10 @@ body{
 .lCol{
 	padding-top:1.5%;
 	padding-bottom:1.5%;
+}
+
+.rCol{
+	background-color: #FFFFFF;
 }
 
 .expo-topic{
