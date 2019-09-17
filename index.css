@@ -97,4 +97,19 @@ body{
 	background-color : white;
 }
 
+.animated {
+	animation-duration: 3.5s;
+	animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown{
+	0% {
+	   opacity: 0;
+	   transform: translateY(-60px);
+	}
+	100% {
+	   opacity: 1;
+	   transform: translateY(0);
+	}
+}
 
