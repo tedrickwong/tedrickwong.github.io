@@ -7,7 +7,7 @@
         <link rel="icon" href="img/favicon.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel = "stylesheet" href = "index.css">
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 		<script src="index.js"></script>         
@@ -21,7 +21,7 @@
 		
 	</head>
     <body>
-        <div class = "jumbotron text-center" style="margin:0;width:100%;padding-bottom:0px;">
+        <div id="home-section" class = "jumbotron text-center" style="margin:0;width:100%;padding-bottom:0px;">
             <h1>Tedrick Wong</h1>
             <p>UCI 2020 - Computer Science</p>
         </div>
@@ -44,15 +44,9 @@
 			</div>
 		</div>
 
-		<div id="navigation" class="container text-center">
-			<!-- <ul class="nav nav-pills nav-justified" role="tablist">
-				<li class="active"><a href="">Home</a></li>
-				<li><a href="experience">Experience</a></li>
-				<li><a href="projects">Projects</a></li>
-				<li><a href="contact">Contact Me</a></li>        
-			</ul> -->
+		<!-- <div id="navigation" class="container text-center">
 			<a href="index.html" style="text-decoration:none;color:inherit;">
-				<div id="home" class="col-md-3 col-sm-3 text-center nav-btn nav-active" style="display:inline-block;float:none;">
+				<div id="" class="col-md-3 col-sm-3 text-center nav-btn nav-active" style="display:inline-block;float:none;">
 					<strong>Home</strong>
 				</div>
 			</a>
@@ -62,22 +56,52 @@
 				</div>
 			</a>
 			<a href="projects" style="text-decoration:none;color:inherit;">
-				<div id="projects" class="col-md-3 col-sm-3 text-center nav-btn" style="display:inline-block;float:none;">
+				<div id="" class="col-md-3 col-sm-3 text-center nav-btn" style="display:inline-block;float:none;">
 					<strong>Projects</strong>
 				</div>
 			</a>
 
-        </div>
+        </div> -->
 
-        <div class="container hidden-xs" style="padding-top:75px;"></div>
+        <!-- <div class="container hidden-xs" style="padding-top:75px;"></div> -->
+		
+		<div class="sidebar">
+			<div id="home" class="row text-center">
+				<div class="col-xs-3 col-md-3 icon">
+					<i class="fas fa-home fa-1x" style="color:#67809f;"></i>
+				</div>
+				<div class="col-xs-9 col-md-9 text">
+					<span id="home-text" style="font-family:Montserrat;font-weight:bold;font-size:14px;">Home</span>
+				</div>
+			</div>
+			
+			<div id="experience" class="row text-center">
+				<div class="col-xs-3 col-md-3 icon">
+					<i class="fas fa-briefcase fa-1x" style="color:#67809f;"></i>
+				</div>
+				<div class="col-xs-9 col-md-9 text">
+					<span id="experience-text" style="font-family:Montserrat;font-weight:bold;font-size:14px;">Experience</span>
+				</div>
+				<br>
+			</div>
+			
+			<div id="project" class="row text-center">
+				<div class="col-xs-3 col-md-3 icon">
+					<i class="far fa-lightbulb fa-1x" style="color:#67809f;"></i>
+				</div>
+				<div class="col-xs-9 col-md-9 text">
+					<span id="project-text" style="font-family:Montserrat;font-weight:bold;font-size:14px;">Projects</span>	
+				</div>
+			</div>
+		</div>
 
-        <div class = "container animated" style="padding-top:50px;">
+        <div class="container animated" style="padding:40px;">
             <div class = "row">
-                <div class = "col-sm-6">
+                <div class = "col-md-6">
                     <img id="home-pic" src = "img/careerfairpic_sq.jpg" class = "img-responsive img-rounded center-block" height = "300px" width = "300px"/>
                 </div>
                 <br/>
-                <div class = "col-sm-6">
+                <div class = "col-md-6">
                     <p>Hello,</p>
                     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         My name is Tedrick and I am currently a fourth year Computer Science major at UC Irvine.
@@ -85,7 +109,7 @@
 						enhances or simplifies some aspect of my daily life. Most of my experience is in Python, 
 						HTML, and PHP. I also have good exposure to C++, CSS, Javascript, MySQL, VBA, and Java. 
 						Mainly looking for Software Engineering, Web Development, Project Management, and IT roles
-						in both the public and private sector. Feel free to explore my site and click on the other tabs!  
+						in both the public and private sector.   
                         <!--I also enjoy learning about cryptocurrency mining such as Bitcoin, 
                         Ethereum, Monero, etc. I currently have an online Monero miner that you can visit and contribute to
                         <a href = "http://tedrickwong.github.io/miner" target="_blank">here</a>.
@@ -96,6 +120,68 @@
                 </div>
             </div>
         </div>
+		
+
+		<div id="experience-section" class="container animated text-center" style="padding:40px;">
+			<p style="font-size:48px;border-bottom:5px solid #FFFFFF;border-top:5px solid #FFFFFF;"><strong>Experience</strong></p>
+			<p>Skills: Python, C++, PHP, MySQL, Javascript, VBA, Selenium, Bootstrap, BeautifulSoup4</p>
+			
+			<h3 class="exp-title">Southern California Edison</h3>						
+			<p style="font-size:14px;margin-bottom:0;">Transmission & Distribution - Work Management - Intern</p>
+			<p style="font-size:14px;">June 2019 - Present</p>
+			<p>Streamline the process flow for intern on-boarding by requiring all pertinent information to be retrieved up front.
+			Design and implement a program to extract C55 data and transform it for upload to TransDM Bulk Uploader.
+			Utilize the mapping of cost objects to activity types to gain the ability to forecast work.
+			Participate in facilitating design and reporting improvements for Wildfire Mitigation efforts.</p>
+			
+			<h3 class="exp-title">Los Angeles Department of Water and Power</h3>
+			<p style="font-size:14px;margin-bottom:0;">ITS Deployment Division - Student Professional Worker</p>
+			<p style="font-size:14px;">September 2018 - May 2019</p>
+			<p>Deployment of upgraded systems to users.
+			Network imaging using MDT (Microsoft Deployment Toolkit).
+			Cloning disk images for deployment using Clonezilla.
+			Manage and inventory all technological devices in the department using AMS (Asset Management System), an application built off Oracle APEX.
+			Complete various tickets, IT Service Requests, ranging from basic troubleshooting to hardware refreshes.
+			Utilization of Microsoft SharePoint to track and store files related to team projects.</p>
+			
+			<h3 class="exp-title">UCI Office of Information Technology</h3>
+			<p style="font-size:14px;margin-bottom:0;">UCI Student Life &amp Leadership - IT Student Web Developer</p>
+			<p style="font-size:14px;">January 2018 - Present</p>
+			<p>Development of PHP and MySQL form-based web applications.
+			Developed course registration form for instructors and admin tools for coordinators.
+			Created and updated databases and tables in phpMyAdmin.</p>
+		
+		</div>
+		
+		<div id="project-section" class="container animated" style="padding:40px;">
+			<p style="text-align:center;font-size:48px;border-bottom:5px solid #FFFFFF;border-top:5px solid #FFFFFF;"><strong>Projects</strong></p>
+			
+			
+				<h2><u>PDF Generator</u></h2>
+				<p>A tool written in PHP and using HTML, CSS, JS, and the <a href="http://www.fpdf.org/">FPDF library</a> to automatically 
+				generate PDFs based on information entered into form fields. Mainly used to help club Treasurers quickly and efficiently
+				create invoices for sponsors. Information can be updated using the admin tool which updates PDF variables that are stored in 
+				a MySQL database.</p>
+				<p>Check it out here: <a href = "https://hackinvoices.herokuapp.com">HackUCI PDF Generator</a></p>
+			
+
+			
+				<h2><u>Periodic Table</u></h2>
+				<p>Implementation of HTML, CSS, Javascript to create a simple and easy to navigate site with information regarding
+					the periodic table. Heavy use of table properties in HTML to create layout and Javascript to display different views.
+				</p>
+				<p>Check it out here: <a href = "http://tedrickwong.github.io/pt">Periodic Table Website</a></p>
+			
+
+			
+				<h2><u>Reddit PC Deals Saver</u></h2>
+				<p>A tool written in Python utilizing JSON data acquired from Reddit. This tool captures new posts on the
+				<a href = "http://www.reddit.com/r/buildapcsales/new">Build a PC Sales Reddit</a>
+					page, analyzes the entries and separates out information (type of deal, product, price, link to page), and 
+					saves it into a database. The data is then displayed on a webpage and can be filtered by the users' preferences.
+				</p>					
+			
+		</div>
         
         <br/>
     </body>

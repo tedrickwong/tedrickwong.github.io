@@ -113,3 +113,84 @@ body{
 	}
 }
 
+.sidebar{
+	position: sticky;
+	float: left;
+	left: 0;
+	top: 50%;
+}
+
+.icon {
+	padding-left:4px;
+	padding-right:4px;
+	background-color: #FFFFFF;
+	border-radius:15px;
+}
+
+#home, #experience, #project{
+	margin:3px;
+	margin-bottom:8px;
+	padding:0;
+	border-radius:15px;	
+	background: linear-gradient(to right, white 50%, #00000000 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	cursor: pointer;
+	/* transition: background .5s ease-out; */
+}
+
+/* #home:hover, #experience:hover, #project:hover {
+	border-radius:15px;
+	background-position: left bottom;	
+} */
+
+/* #home .icon i{
+	transition: transform .35s ease-in-out;
+}
+
+#home .icon:hover i,
+#home .icon i:hover,
+#home:hover .icon i{
+	transform: rotate(360deg);
+}
+
+#experience .icon i{
+	transition: transform .35s ease-in-out;
+}
+
+#experience  .icon:hover i,
+#experience  .icon i:hover,
+#experience:hover .icon i{
+	transform: rotate(360deg);
+}
+
+#project .icon i{
+	transition: transform .35s ease-in-out;
+}
+
+#project  .icon:hover i,
+#project  .icon i:hover,
+#project:hover .icon i{
+	transform: rotate(360deg);
+} */
+
+#home-text , #experience-text, #project-text{
+	color: #00000000;
+	transition: color 1s ease;
+}
+
+/* #home:hover #home-text ,#experience:hover #experience-text, #project:hover #project-text{
+	color: #000000;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
