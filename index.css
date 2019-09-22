@@ -11,8 +11,6 @@
 body{
     font-family: "Montserrat";
     font-size: 16px;
-    /*background: #E9FFFF;*/
-	/* color: #E9FFFF; */
 	color: #FFFFFF;
 	background: #22313f;
     padding-bottom: 150px;
@@ -44,57 +42,18 @@ body{
 	text-align: center;
 }
 
-.column{
-	padding-bottom: 100%;
-    margin-bottom: -100%;
-}
-
-.lCol{
-	padding-top:1.5%;
-	padding-bottom:1.5%;
-}
-
-.rCol{
-	background-color: #FFFFFF;
-}
-
-.expo-topic{
-	margin-top: 2vh;
-	margin-bottom: 2vh;
-}
-
-.expo-link{
-	text-decoration: none;
-	color: inherit;
-}
-
-.expo-link:hover{
-	color: inherit;
-	opacity: 0.75;
-}
-
-.xchange_pic{
-	border: 2px solid #000000;
-	box-shadow: 0 0 45px black;
-}
-
 .nav-btn {
-	border:3px solid white;
-	padding:10px;
-	margin-left:3px;
-	margin-right:3px;
-	margin-top:10px;
-	margin-bottom:10px;
+	display: inline-block;
+	border-bottom:3px solid white;
+	margin: 15px;	
 }
 
-.nav-btn:hover {
-	background-color: white;
-	color: black;
-}
-
-.nav-active {
-	color : black;
-	background-color : white;
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #24252a;
+	z-index: 999;
 }
 
 .animated {
@@ -128,61 +87,34 @@ body{
 }
 
 #home, #experience, #project{
-	margin:3px;
-	margin-bottom:8px;
-	padding:0;
-	border-radius:15px;	
-	background: linear-gradient(to right, white 50%, #00000000 50%);
-	background-size: 200% 100%;
-	background-position: right bottom;
-	cursor: pointer;
-	/* transition: background .5s ease-out; */
+	cursor: pointer; 
 }
 
-/* #home:hover, #experience:hover, #project:hover {
-	border-radius:15px;
-	background-position: left bottom;	
+/* #home:hover, #experience:hover, #project:hover{
+	color: #67809f;
+	border-bottom: 3px solid #67809f;
 } */
 
-/* #home .icon i{
-	transition: transform .35s ease-in-out;
+/* Expo CSS */
+.expo-topic{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
 }
 
-#home .icon:hover i,
-#home .icon i:hover,
-#home:hover .icon i{
-	transform: rotate(360deg);
+.expo-link{
+	text-decoration: none;
+	color: inherit;
 }
 
-#experience .icon i{
-	transition: transform .35s ease-in-out;
+.expo-link:hover{
+	color: inherit;
+	opacity: 0.75;
 }
 
-#experience  .icon:hover i,
-#experience  .icon i:hover,
-#experience:hover .icon i{
-	transform: rotate(360deg);
+.xchange_pic{
+	border: 2px solid #000000;
+	box-shadow: 0 0 45px black;
 }
-
-#project .icon i{
-	transition: transform .35s ease-in-out;
-}
-
-#project  .icon:hover i,
-#project  .icon i:hover,
-#project:hover .icon i{
-	transform: rotate(360deg);
-} */
-
-#home-text , #experience-text, #project-text{
-	color: #00000000;
-	transition: color 1s ease;
-}
-
-/* #home:hover #home-text ,#experience:hover #experience-text, #project:hover #project-text{
-	color: #000000;
-} */
-
 
 
 
