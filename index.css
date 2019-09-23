@@ -57,7 +57,7 @@ body{
 }
 
 .animated {
-	animation-duration: 3.5s;
+	animation-duration: 1.5s;
 	animation-name: fadeInDown;
 }
 

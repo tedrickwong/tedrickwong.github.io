@@ -5,7 +5,7 @@ $( document ).ready(function()
 		var section = "#"+this.id + "-section";
 		console.log(section);
 		$('html, body').animate({
-			scrollTop: $(section).offset().top},
+			scrollTop: $(section).offset().top - 80},
 			800);
 		
    });
