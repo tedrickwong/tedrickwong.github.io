@@ -36,10 +36,17 @@ body{
 	color: #000000;
 }
 
+.exp-header {
+	font-size:48px;
+	border-bottom:5px solid #FFFFFF;
+	border-top:5px solid #FFFFFF;
+}
+
 .exp-title{
 	font-weight: bold;
-	margin-bottom:0;
 	text-align: center;
+	color: #FFFFFF;
+	text-decoration: underline;
 }
 
 .nav-btn {
@@ -89,6 +96,12 @@ body{
 #home, #experience, #project{
 	cursor: pointer; 
 }
+
+/*#bio-section, #experience-section, #project-section {
+	background-color: #FFFEF2;
+	color: #000000;
+	font-weight: bold;
+}*/
 
 /* #home:hover, #experience:hover, #project:hover{
 	color: #67809f;
