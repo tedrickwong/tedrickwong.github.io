@@ -5,16 +5,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="img/favicon.ico">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+		<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		
+		<!-- Custom CSS -->
         <link rel = "stylesheet" href = "index.css">
-		<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		
+		<!-- Custom JS -->
 		<script src="index.js"></script>         
 		
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
 		
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -30,55 +37,79 @@
 			</div>
         </div>
 
-		<div id="link-section" class="container">
-			<div class="row" style="margin:0;text-align:center;">
-				<div class = "col-sm-4"></div>
-				<div class = "col-sm-4 text-center">						
-					<a href = "mailto:tedrickwong8@gmail.com?" target = "_top" style="text-decoration:none;">
-						<i class="fas fa-envelope fa-2x" style="color:#FFFFFF;margin:5px;"></i>
+		<div id="link-section" class="container" style="">
+			<div class="row" style="text-align:center;">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4 text-center">						
+					<a href="mailto:tedrickwong8@gmail.com?" target="_top" style="text-decoration:none;">
+						<i class="fas fa-envelope fa-2x" style="color:#22313f;margin:5px;"></i>
 					</a>
-					<a href = "http://www.linkedin.com/in/tedrick-wong" target = "_blank" style="text-decoration:none;">
-						<i class="fab fa-linkedin fa-2x" style="color:#FFFFFF;margin:5px;"></i>
+					<a href="http://www.linkedin.com/in/tedrick-wong" target="_blank" style="text-decoration:none;">
+						<i class="fab fa-linkedin-in fa-2x" style="color:#22313f;margin:5px;"></i>
 					</a>
-					<a href = "http://www.github.com/tedrickwong" target = "_blank" style="text-decoration:none;">
-						<i class="fab fa-github-square fa-2x" style="color:#FFFFFF;margin:5px;"></i>
+					<a href="http://www.github.com/tedrickwong" target="_blank" style="text-decoration:none;">
+						<i class="fab fa-github fa-2x" style="color:#22313f;margin:5px;"></i>
 					</a>
 				</div>
-				<div class = "col-sm-4"></div>
+				<div class="col-sm-4"></div>
 			</div>
 		</div>		
 
         <div id="bio-section" class="container animated" style="padding:40px;">
-            <div class = "row">
-                <div class = "col-md-6">
-                    <img id="home-pic" src = "img/careerfairpic_sq.jpg" class = "img-responsive img-rounded center-block" height = "300px" width = "300px"/>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img id="home-pic" src="img/careerfairpic_sq.jpg" class="img-responsive img-rounded center-block" height="256px" width="256px"/>
                 </div>
                 <br/>
-                <div class = "col-md-6">
+                <div class="col-md-8">
                     <p>Hello,</p>
                     <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         My name is Tedrick and I am a recent graduate of UC Irvine with a B.S. Computer Science with a specialization in Information.
                         I enjoy working on various side projects that allow me to express my creativity and 
 						enhances or simplifies some aspect of my daily life. Most of my experience is in Python, 
 						HTML, CSS, JS, and PHP. I also have good exposure to C++, MySQL, VBA, and Java. 
-						My main interests are in Software Engineering, Web Development, and Project Management.   
-                        <!--I also enjoy learning about cryptocurrency mining such as Bitcoin, 
-                        Ethereum, Monero, etc. I currently have an online Monero miner that you can visit and contribute to
-                        <a href = "http://tedrickwong.github.io/miner" target="_blank">here</a>.
-                        I believe strongly that every penny counts and also farm on a site called 
-                        <a href = "http://earn.gg/?ref=116723682379808841142" target = "_blank">earn.gg</a>. 
-                        I hope to one day save up all of the money I have earned from these sources to build my dream PC.-->                         
+						My main interests are in Software Engineering, Web Development, and Project Management.                          
                     </p>
                 </div>
             </div>
         </div>
 		
 
-		<div id="experience-section" class="container animated text-center" style="padding:40px;">
-			<p class="exp-header"><strong>Experience</strong></p>
-			<p>Skills: Python, C++, HTML, PHP, MySQL, Javascript, VBA, Selenium, Bootstrap, BeautifulSoup4, SAS, Git</p>
+		<div id="experience-section" class="animated text-center" style="padding:40px;">
+			<h1 class="exp-header">Experience</h1>
 			
-			<div>
+			<div style="color:#FFFFFF;">
+				<p>
+					<span>Languages: </span>
+					<span class="badge badge-info">Python</span>
+					<span class="badge badge-info">HTML</span>
+					<span class="badge badge-info">PHP</span>
+					<span class="badge badge-info">SQL</span>
+					<span class="badge badge-info">JavaScript</span>
+					<span class="badge badge-info">CSS</span>
+					<span class="badge badge-info">Bootstrap</span>
+					<span class="badge badge-info">Selenium</span>
+					<span class="badge badge-info">C++</span>
+					<span class="badge badge-info">Java</span>
+					<span class="badge badge-info">VBA</span>
+				</p>
+				<p>
+					<span>Tools: </span>
+					<span class="badge badge-dark">Microsoft Office</span>
+					<span class="badge badge-dark">SAS Enterprise Guide</span>
+					<span class="badge badge-dark">Git</span>
+					<span class="badge badge-dark">Visual Studio Code</span>
+					<span class="badge badge-dark">Notepad++</span>
+				</p>
+				<p>
+					<span>Other: </span>
+					<span class="badge badge-secondary">Public Speaking</span>
+					<span class="badge badge-secondary">Leadership</span>
+					<span class="badge badge-secondary">Project Management</span>
+				</p>
+			</div>
+			
+			<div class="exp">
 				<h3 class="exp-title"><a href="https://www.sce.com/" style="color:inherit;">Southern California Edison</a></h3>						
 				<strong><p style="font-size:14px;margin-bottom:0;">Transmission & Distribution - Project Management Support Specialist</p></strong>
 				<p style="font-size:14px;"><i class="far fa-clock"></i> April 2020 - Present</p>
@@ -86,6 +117,8 @@
 				I support the development and implementation of tools that gives visibility to work order status across the IPSEC model. 
 				Additionally, I maintain and enhance existing tools such as STT and ETL, as well as develop reports for the Transmission business line.
 				</p>
+				
+				<br>
 									
 				<strong><p style="font-size:14px;margin-bottom:0;">Transmission & Distribution - Work Management Intern</p></strong>
 				<p style="font-size:14px;"><i class="far fa-clock"></i> June 2019 - April 2020</p>
@@ -104,7 +137,9 @@
 				</p>
 			</div>
 			
-			<div>
+			<br>
+			
+			<div class="exp">
 				<h3 class="exp-title"><a href="https://www.ladwp.com/" style="color:inherit;">Los Angeles Department of Water and Power</a></h3>
 				<strong><p style="font-size:14px;margin-bottom:0;">ITS Deployment - Student Professional Worker</p></strong>
 				<p style="font-size:14px;"><i class="far fa-clock"></i> September 2018 - May 2019</p>
@@ -117,7 +152,9 @@
 				</p>
 			</div>
 			
-			<div>
+			<br>
+			
+			<div class="exp">
 				<h3 class="exp-title"><a href="https://www.oit.uci.edu/" style="color:inherit;">UCI Office of Information Technology</a></h3>
 				<strong><p style="font-size:14px;margin-bottom:0;">UCI Student Life &amp Leadership - IT Student Web Developer</p></strong>
 				<p style="font-size:14px;"><i class="far fa-clock"></i> January 2018 - October 2019</p>
@@ -131,67 +168,47 @@
 		
 		</div>
 		
-		<div id="project-section" class="container animated text-center" style="padding:40px;">
-			<p class="exp-header"><strong>Projects</strong></p>
-				<div class="row">
-					<div class="col-md-4"></div>
-					<div class="col-md-4">
-						<div style="border: 1px solid #FFFFFF;border-radius:15px;padding:15px;margin-top:15px;margin-bottom:15px;">		
-							<h3 class="card-title" style="margin-top:10px;"><strong>PDF Generator</strong></h3>
-							<p class="card-text">A tool written in PHP and using HTML, CSS, JS, and the FPDF library to automatically generate PDFs based on information entered into form fields.</p>
-							<a href="https://hackinvoices.herokuapp.com" class="btn btn-primary">PDF Generator</a>
-						</div>
+		<div id="project-section" class="animated text-center" style="padding:40px;">
+			<h1 class="exp-header" style="color:#22313f">Projects</h1>
+			
+			<div class="card-deck">
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title" style="margin-top:10px;"><strong>PDF Generator</strong></h3>
+						<p class="card-text">A website designed to highlight my experience, skills, projects, and interests. UI updated with new styles frequently along with new content.</p>
 					</div>
-					<div class="col-md-4"></div>
-				</div>
-				
-				<!-- <div class="col-md-4">
-					<div class="card" style="border: 1px solid #FFFFFF;border-radius:15px;padding:15px;min-height:265px;margin-top:15px;margin-bottom:15px;">
-						<div class="card-body">
-							<h3 class="card-title" style="margin-top:10px;"><strong>Periodic Table</strong></h3>
-							<p class="card-text">A clean Periodic Table layout with information about each element.</p>
-							<a href="http://tedrickwong.github.io/pt" class="btn btn-primary">Periodic Table</a>
-						</div>
+					<div class="card-footer">
+						<a href="https://hackinvoices.herokuapp.com" class="btn btn-outline-primary">PDF Generator</a>
 					</div>
 				</div>
 				
-				<div class="col-md-4">
-					<div class="card" style="border: 1px solid #FFFFFF;border-radius:15px;padding:15px;min-height:265px;margin-top:15px;margin-bottom:15px;">
-						<div class="card-body">
-							<h3 class="card-title" style="margin-top:10px;"><strong>Reddit PC Deals Saver</strong></h3>
-							<p class="card-text">A tool written in Python utilizing JSON data acquired from Reddit. This tool captures new posts on the
-							<a href = "http://www.reddit.com/r/buildapcsales/new">Build a PC Sales Reddit</a>
-							page.</p>
-						</div>
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title" style="margin-top:10px;"><strong>Personal Website</strong></h3>
+						<p class="card-text">A tool written in PHP and using HTML, CSS, JS, and the FPDF library to automatically generate PDFs based on information entered into form fields.</p>
 					</div>
-				</div> -->
-			
-				<!--
-			
-				<h2><u>PDF Generator</u></h2>
-				<p>A tool written in PHP and using HTML, CSS, JS, and the <a href="http://www.fpdf.org/">FPDF library</a> to automatically 
-				generate PDFs based on information entered into form fields. Mainly used to help club Treasurers quickly and efficiently
-				create invoices for sponsors. Information can be updated using the admin tool which updates PDF variables that are stored in 
-				a MySQL database. The tool is hosted on <a href="https://devcenter.heroku.com/categories/php-support">Heroku</a> and utilizes <a href="https://elements.heroku.com/addons/cleardb">ClearDB</a> databases.</p>
-				<p>Check it out here: <a href = "https://hackinvoices.herokuapp.com">HackUCI PDF Generator</a></p>
-			
-				<h2><u>Periodic Table</u></h2>
-				<p>Implementation of HTML, CSS, Javascript to create a simple and easy to navigate site with information regarding
-				the periodic table. Heavy use of table properties in HTML to create layout and Javascript to display different views.
-				</p>
-				<p>Check it out here: <a href = "http://tedrickwong.github.io/pt">Periodic Table Website</a></p>
-			
-				<h2><u>Reddit PC Deals Saver</u></h2>
-				<p>A tool written in Python utilizing JSON data acquired from Reddit. This tool captures new posts on the
-				<a href = "http://www.reddit.com/r/buildapcsales/new">Build a PC Sales Reddit</a>
-				page, analyzes the entries and separates out information (type of deal, product, price, link to page), and 
-				saves it into a database. The data is then displayed on a webpage and can be filtered by the users' preferences.
-				</p>			
-
-				-->
-			
+					<div class="card-footer">
+						<a href="https://github.com/tedrickwong/tedrickwong.github.io" class="btn btn-outline-dark">Github Repo</a>
+					</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-body">
+						<h3 class="card-title" style="margin-top:10px;"><strong>Calendar</strong></h3>
+						<p class="card-text">A calendar web application written using vanilla JS. This application is an ongoing project with new features and enhancements being added frequently.</p>
+					</div>
+					<div class="card-footer">
+						<a href="https://tedrickwong.com/calendar" class="btn btn-outline-primary">Calendar</a>
+						<a href="https://github.com/tedrickwong/calendar" class="btn btn-outline-dark">Github Repo</a>
+					</div>
+				</div>
+			</div>
+				
 		</div>
+		
+		<footer class="footer">
+			<p>Tedrick Wong &copy; 2020</p>
+		</footer>
         
-        <br/>
     </body>
 </html>

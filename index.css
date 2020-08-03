@@ -1,66 +1,69 @@
-@font-face{
-    font-family: "Moon";
-    src: url("MoonFont/MoonLight.otf");
-}
-
-@font-face{
-	font-family: "Moon Bold";
-	src: url("MoonFont/Moon Bold.otf");
-}
-
 body{
-    font-family: "Montserrat";
+    font-family: "Mulish", sans-serif;
     font-size: 16px;
-	color: #FFFFFF;
-	background: #22313f;
-    padding-bottom: 150px;
+	color: #22313f;
+	background: #CCDBEE;
 	overflow-y: overlay;
+	overflow-x: hidden;
 }
 
 #home-pic{
     border-radius: 150px;
+	border: 2px solid #234767;
 }
 
 .jumbotron{
 	background: none;
 }
 
-.exp{
-	margin-left:5px;
-	margin-right:5px;
-	margin-bottom:15px;
-	border:1px solid #E9FFFF;
-	border-radius:10px;
-	padding-bottom: 5px;
-	background-color: #DDDDDD;
-	color: #000000;
-}
-
-.exp-header {
-	font-size:48px;
-	border-bottom:5px solid #FFFFFF;
-	border-top:5px solid #FFFFFF;
-}
-
-.exp-title{
-	font-weight: bold;
-	text-align: center;
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-
+/* Navbar */
 .nav-btn {
 	display: inline-block;
-	border-bottom:3px solid white;
+	border-bottom: 3px solid #22313f;
 	margin: 15px;	
+}
+
+#home, #experience, #project{
+	cursor: pointer; 
 }
 
 .sticky{
 	position: fixed;
 	top: 0;
+	left: 0;
 	width: 100%;
-	background-color: #24252a;
+	background-color: #22313f;
 	z-index: 999;
+}
+
+/* Experience and Project Sections */
+.exp, .prj{
+	padding: 15px;
+	border-radius:10px;
+	background-color: #FFFFFF;
+	color: #000000;
+	transition: box-shadow 0.15s ease-in-out;
+}
+
+.exp:hover, .prj:hover, .card:hover {
+	box-shadow: 0 0 20px #EEE;
+}
+
+.exp-header {
+	color: white;
+}
+
+.exp-title{
+	font-weight: bold;
+	text-align: center;
+	color: #22313f;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+#experience-section {
+	background: #234767;
+	border-radius: 5px;
 }
 
 .animated {
@@ -79,34 +82,29 @@ body{
 	}
 }
 
-.sidebar{
-	position: fixed;
-	float: left;
+.card {
+	transition: box-shadow 0.15s ease-in-out;
+}
+
+/* Footer */
+.footer {
 	left: 0;
-	top: 50%;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #234767;
+	border-radius: 5px;
+	color: #FFFFFF;
 }
 
-.icon {
-	padding-left:4px;
-	padding-right:4px;
-	background-color: #FFFFFF;
-	border-radius:15px;
+.footer p {
+	margin: 0;
+	
 }
 
-#home, #experience, #project{
-	cursor: pointer; 
-}
 
-/*#bio-section, #experience-section, #project-section {
-	background-color: #FFFEF2;
-	color: #000000;
-	font-weight: bold;
-}*/
-
-/* #home:hover, #experience:hover, #project:hover{
-	color: #67809f;
-	border-bottom: 3px solid #67809f;
-} */
 
 /* Expo CSS */
 .expo-topic{
