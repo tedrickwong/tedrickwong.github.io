@@ -1,8 +1,8 @@
 body{
     font-family: "Mulish", sans-serif;
     font-size: 16px;
-	color: #22313f;
-	background: #CCDBEE;
+	color: #FFFFFF;
+	background: #234767;
 	overflow-y: overlay;
 	overflow-x: hidden;
 }
@@ -19,7 +19,7 @@ body{
 /* Navbar */
 .nav-btn {
 	display: inline-block;
-	border-bottom: 3px solid #22313f;
+	border-bottom: 3px solid #FFFFFF;
 	margin: 15px;	
 }
 
@@ -32,38 +32,56 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #22313f;
+	background-color: #234767;
 	z-index: 999;
 }
 
-/* Experience and Project Sections */
-.exp, .prj{
+/* Experience Section */
+#experience-section {
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+
+.exp{
 	padding: 15px;
 	border-radius:10px;
 	background-color: #FFFFFF;
-	color: #000000;
+	box-shadow: 0 0 30px #E8E8E8;
+	color: #234767;
 	transition: box-shadow 0.15s ease-in-out;
 }
 
-.exp:hover, .prj:hover, .card:hover {
-	box-shadow: 0 0 20px #EEE;
-}
-
 .exp-header {
-	color: white;
+	color: #234767;
 }
 
 .exp-title{
 	font-weight: bold;
 	text-align: center;
-	color: #22313f;
+	color: #234767;
 	margin-top: 10px;
 	text-decoration: underline;
 }
 
-#experience-section {
-	background: #234767;
-	border-radius: 5px;
+.sce-theme {
+	border:2px solid #00705b;
+}
+.sce-theme:hover {
+	box-shadow: 0 0 10px #00705b;
+}
+
+.ladwp-theme {
+	border:2px solid #006da4;
+}
+.ladwp-theme:hover {
+	box-shadow: 0 0 10px #006da4;
+}
+
+.uci-theme {
+	border:2px solid #295799;
+}
+.uci-theme:hover {
+	box-shadow: 0 0 10px #295799;
 }
 
 .animated {
@@ -82,8 +100,14 @@ body{
 	}
 }
 
+/* Project Section */
 .card {
 	transition: box-shadow 0.15s ease-in-out;
+	color: #234767;
+}
+
+.card:hover {
+	box-shadow: 0 0 10px #006da4;
 }
 
 /* Footer */
@@ -94,9 +118,9 @@ body{
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background: #234767;
+	background: #FFFFFF;
 	border-radius: 5px;
-	color: #FFFFFF;
+	color: #234767;
 }
 
 .footer p {

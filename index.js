@@ -20,7 +20,7 @@ $( document ).ready(function()
 		if( window.pageYOffset > offset )
 		{
 			navbar.classList.add("sticky");
-			navbar.style.color = "#FFFFFF";
+			// navbar.style.color = "#FFFFFF";
 			for(var i = 0;i < navbtn.length;i++)
 			{
 				navbtn[i].style.borderBottom = "3px solid #FFFFFF";
@@ -29,10 +29,10 @@ $( document ).ready(function()
 		else
 		{
 			navbar.classList.remove("sticky");
-			navbar.style.color = "#22313f";
+			navbar.style.color = "#FFFFFF";
 			for(var i = 0;i < navbtn.length;i++)
 			{
-				navbtn[i].style.borderBottom = "3px solid #22313f";
+				navbtn[i].style.borderBottom = "3px solid #FFFFFF";
 			}			
 		}
    }
