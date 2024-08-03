@@ -1,163 +1,75 @@
-body{
+/* Gradient body background */
+body{                
+    background: linear-gradient(180deg, rgba(148,233,168,.2) 0%, rgba(148,213,233,1) 100%);
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     font-family: "Mulish", sans-serif;
-    font-size: 16px;
-	color: #FFFFFF;
-	background: #3d5a80;
-	overflow-y: overlay;
-	overflow-x: hidden;
+    height: 100vh;
 }
 
-#home-pic{
-    border-radius: 150px;
-	/*border: 2px solid #3d5a80;*/
-}
-
-.jumbotron{
-	background: none;
-}
-
-/* Navbar */
-.nav-btn {
-	display: inline-block;
-	border-bottom: 3px solid #FFFFFF;
-	margin: 15px;	
-}
-
-#home, #experience, #project{
-	cursor: pointer; 
-}
-
-.sticky{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: #3d5a80;
-	z-index: 999;
-}
-
-/* Experience Section */
-#experience-section {
-	background: #FFFFFF;
-	border-radius: 5px;
-}
-
-.exp{
-	padding: 15px;
-	border-radius:10px;
-	background-color: #FFFFFF;
-	box-shadow: 0 0 30px #E8E8E8;
-	color: #3d5a80;
-	transition: box-shadow 0.15s ease-in-out;
-}
-
-.exp-header {
-	color: #3d5a80;
-}
-
-.exp-title{
-	font-weight: bold;
-	text-align: center;
-	color: #3d5a80;
-	margin-top: 10px;
-	text-decoration: underline;
-}
-
-.sce-theme {
-	border:2px solid #00705b;
-}
-.sce-theme:hover {
-	box-shadow: 0 0 10px #00705b;
-}
-
-.ladwp-theme {
-	border:2px solid #006da4;
-}
-.ladwp-theme:hover {
-	box-shadow: 0 0 10px #006da4;
-}
-
-.uci-theme {
-	border:2px solid #295799;
-}
-.uci-theme:hover {
-	box-shadow: 0 0 10px #295799;
-}
-
-.animated {
-	animation-duration: 1.5s;
-	animation-name: fadeInDown;
-}
-
-@keyframes fadeInDown{
-	0% {
-	   opacity: 0;
-	   transform: translateY(-60px);
-	}
-	100% {
-	   opacity: 1;
-	   transform: translateY(0);
-	}
-}
-
-/* Project Section */
+/* Glassmorphism cards */
 .card {
-	transition: box-shadow 0.15s ease-in-out;
-	color: #3d5a80;
+    background: rgba(255, 255, 255, .25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 20px;
 }
 
-.card:hover {
-	box-shadow: 0 0 10px #006da4;
+.container {
+    margin-top:40px;
+    margin-bottom:40px
+}
+
+/* Header Name Banner */
+h1 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #00809c;
+    font-size: 3.5rem;
+    margin: 20px;
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Hyperlinks */
+a {
+    background-color: #9e94e9;
+    color: #ffffff;
+    border-radius: 26px;
+    padding: 14px;
+    margin-right:auto;
+    margin-left:auto;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #ada4ec;
+    color: #ffffff;
 }
 
 /* Footer */
 .footer {
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	background: #FFFFFF;
-	border-radius: 5px;
-	color: #3d5a80;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #3d5a80;
 }
 
 .footer p {
-	margin: 0;
-	
+    margin: 0;
+    
 }
-
-
-
-/* Expo CSS */
-.expo-topic{
-	margin-top: 2vh;
-	margin-bottom: 2vh;
-}
-
-.expo-link{
-	text-decoration: none;
-	color: inherit;
-}
-
-.expo-link:hover{
-	color: inherit;
-	opacity: 0.75;
-}
-
-.xchange_pic{
-	border: 2px solid #000000;
-	box-shadow: 0 0 45px black;
-}
-
-
-
-
-
-
-
-
-
-
-
